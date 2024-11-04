@@ -100,10 +100,10 @@ function showDetails(student) {
         },
         rezky: {
             nim: '23034066',
-            email: '-',
-            telp: '-',
-            tanggalLahir: '-',
-            moto: '-'
+            email: 'rezkypratama12@gmail.com',
+            telp: '082287206267',
+            tanggalLahir: '01 desember 2004',
+            moto: 'ngapainb banyak mikir, bikin goblok aja'
         },
         rien: {
             nim: '23034067',
