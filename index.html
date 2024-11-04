@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas Fisika C 2023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kelas Fisika C 2023</h1>
+        <p>Daftar Mahasiswa Kelas Fisika C Angkatan 2023</p>
+    </header>
+    <div class="container">
+        <!-- Kartu Mahasiswa -->
+        <div class="student-card" onclick="showDetails('ferdi')">
+            <img src="foto_mahasiswa1.jpg" alt="Foto Ferdi">
+            <h3>Ferdi Pratama</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('fiona')">
+            <img src="foto_mahasiswa2.jpg" alt="Foto Fiona">
+            <h3>Fiona Arsa</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('fitri')">
+            <img src="foto_mahasiswa3.jpg" alt="Foto Fitri">
+            <h3>Fitri Yanti</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('halifah')">
+            <img src="foto_mahasiswa4.jpg" alt="Foto Halifah">
+            <h3>Halifah Huljannah</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('lova')">
+            <img src="foto_mahasiswa5.jpg" alt="Foto Lova">
+            <h3>Lova Aprilia</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('maretha')">
+            <img src="foto_mahasiswa6.jpg" alt="Foto Maretha">
+            <h3>Maretha Angel Kristina Siburian</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('maya')">
+            <img src="foto_mahasiswa7.jpg" alt="Foto Maya">
+            <h3>Maya Septia Siregar</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('melda')">
+            <img src="foto_mahasiswa8.jpg" alt="Foto Melda">
+            <h3>Melda Yani</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('mike')">
+            <img src="foto_mahasiswa9.jpg" alt="Foto Mike">
+            <h3>Mike Nelvia Liza</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('muhammad')">
+            <img src="foto_mahasiswa10.jpg" alt="Foto Muhammad">
+            <h3>Muhammad Yazid</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('nisrina')">
+            <img src="foto_mahasiswa11.jpg" alt="Foto Nisrina">
+            <h3>Nisrina Zahra Athira</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('rahmah')">
+            <img src="foto_mahasiswa12.jpg" alt="Foto Rahmah">
+            <h3>Rahmah Salsabila</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('reny')">
+            <img src="foto_mahasiswa13.jpg" alt="Foto Reny">
+            <h3>Reny Aulia Yosita Dewi</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('reva')">
+            <img src="foto_mahasiswa14.jpg" alt="Foto Reva">
+            <h3>Reva Leni Setiasih</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('rezky')">
+            <img src="foto_mahasiswa15.jpg" alt="Foto Rezky">
+            <h3>Rezky Pratama</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('rien')">
+            <img src="foto_mahasiswa16.jpg" alt="Foto Rien">
+            <h3>Rien Permata Sari</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('riren')">
+            <img src="foto_mahasiswa17.jpg" alt="Foto Riren">
+            <h3>Riren Zaira</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('sandi')">
+            <img src="foto_mahasiswa18.jpg" alt="Foto Sandi">
+            <h3>Sandi Ardiansyah</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('sofi')">
+            <img src="foto_mahasiswa19.jpg" alt="Foto Sofi">
+            <h3>Sofi Husna Hafifah</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('sofian')">
+            <img src="foto_mahasiswa20.jpg" alt="Foto Sofian">
+            <h3>Sofian Andi Putra</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('widia')">
+            <img src="foto_mahasiswa21.jpg" alt="Foto Widia">
+            <h3>Widia Rahmadani</h3>
+        </div>
+        <div class="student-card" onclick="showDetails('elida')">
+            <img src="foto_mahasiswa22.jpg" alt="Foto Elida">
+            <h3>Elida Hannum Lubis</h3>
+        </div>
+    </div>
+
+    <!-- Detail Modal -->
+    <div id="modal" class="modal" onclick="hideDetails()">
+        <div class="modal-content" onclick="event.stopPropagation();">
+            <span class="close" onclick="hideDetails()">&times;</span>
+            <div id="detail-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
